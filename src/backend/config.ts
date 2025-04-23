@@ -9,4 +9,6 @@ if(!firebase.apps.length){
     })
 }
 
-export default firebase
+const firestore = firebase.firestore()
+
+export {firebase, firestore}
